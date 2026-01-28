@@ -1,0 +1,14 @@
+{
+  "empresa": "Bernardi Logistics",
+  "contato": "rh@bernardi.com",
+  "telefone": "(11) 3333-3333",
+  "politicas": {
+    "reembolso_internet": "✅ Até R$ 200/mês para home office (comprovante obrigatório)",
+    "reembolso_cursos": "✅ Até R$ 500/ano para cursos relacionados à função",
+    "ferias": "🌴 30 dias após 12 meses de trabalho + não acumular mais de 2 períodos",
+    "home_office": "🏠 Máximo 3 dias/semana - requer ambiente adequado e internet estável",
+    "beneficios": "📊 VR: R$ 30/dia, VT: passe livre, Saúde: Unimed, Odonto: Odontoprev",
+    "uniforme": "👔 2 uniformes por ano - solicitar no RH",
+    "plano_saude": "🏥 Unimed - 30 dias de carência"
+  }
+}
