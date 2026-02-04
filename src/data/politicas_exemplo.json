@@ -1,0 +1,10 @@
+{
+    "empresa": "Minha Empresa",
+    "politicas": [
+        {
+            "titulo": "Política de Home Office",
+            "conteudo": "Funcionários podem trabalhar remoto até 3 dias por semana mediante acordo assinado com o gestor.",
+            "tags": ["remoto", "home office", "casa"]
+        }
+    ]
+}
