@@ -1,4 +1,5 @@
 @echo off
+chnp 65001 >nul
 echo 🔍 VERIFICANDO ESTRUTURA DO PROJETO
 echo ==================================
 
