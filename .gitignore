@@ -1,78 +1,73 @@
-# Python
+# ============================================
+# RH ASSISTANT PRO - ARQUIVOS PRIVADOS/INTERNOS
+# ============================================
+
+# 🚫 NUNCA subir para GitHub público
+installers/          # Instaladores e executáveis
+dist/                # Executáveis gerados
+build/               # Builds temporários
+_backup/             # Backups locais
+_temp/               # Arquivos temporários
+__pycache__/         # Cache Python
+*.exe                # Executáveis Windows
+*.zip                # Pacotes de instalação
+*.msi                # Instaladores Windows
+
+# 📊 Dados sensíveis de clientes
+data/backup_pdfs/    # PDFs com políticas reais
+data/*.pdf           # Qualquer PDF
+docs/*.pdf           # PDFs na documentação
+
+# 💼 Sistema interno de negócios
+sales_system.py      # Sistema de vendas interno
+*script_vendas*      # Qualquer script de vendas
+*plano_negocios*     # Planos de negócio
+*clientes*           # Dados de clientes
+
+# 🔧 Scripts locais/Windows
+*.bat                # Scripts batch
+empacotador_*        # Scripts de empacotamento
+instalador_*         # Scripts de instalação
+criar_*              # Scripts de criação
+config_cliente.bat   # Configuração local
+verificar_*          # Scripts de verificação
+
+# 🔐 Configurações e licenças
+config.json          # Configurações locais (se tiver dados sensíveis)
+license.json         # Licenças de clientes
+.env                 # Variáveis de ambiente
+*.local              # Configurações locais
+secrets*             # Arquivos de segredos
+
+# 📁 Estrutura padrão Python
+*.pyc
+*.pyo
+*.pyd
 __pycache__/
-*.py[cod]
-*$py.class
 *.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
 *.egg
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.venv/
+venv/
+env/
+ENV/
 
-# PyInstaller
-*.spec
-dist/
-build/
-
-# Instaladores e executáveis
-*.exe
-*.msi
-*.zip
-*.bat
-installers/
-installer.bat
-
-# Configurações e backups
-_backup/
-_temp/
-*.bak
-*.tmp
-*.log
-config.json
-license.json
-sales_system.py
-
-# Scripts internos
-empacotador_pro.bat
-empacotador_simples.bat
-instalador_cliente.bat
-criar_instalador.bat
-config_cliente.bat
-verificar_estrutura.bat
-veirificar_syntaxe.py
-
-# Assets e dados privados
-assets/
-data/*.pdf
-docs/*.pdf
-app_profissional.py
-
-# Arquivos de vendas
-"Script de Vendas LinkedI.txt"
-
-# Sistema
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# IDE
+# 📁 IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Runtime
-.env
-*.local
-*.pyc
+# 🖥️ Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 📝 Logs
+*.log
+logs/
+EOF

@@ -1,0 +1,8 @@
+{
+  "type": "trial",
+  "created_date": "2024-01-01T00:00:00",
+  "expiry_date": "2024-01-15T00:00:00",
+  "machine_id": "exemplo_machine_id",
+  "product": "RH Assistant Pro",
+  "version": "1.0.0"
+}
