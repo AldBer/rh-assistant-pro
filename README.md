@@ -28,14 +28,14 @@ Sistema inteligente de busca e gestão de políticas empresariais. Encontre qual
 ## 🚀 Para Clientes (Não Desenvolvedores)
 
 Baixe a versão instalável com interface gráfica:
-[📥 Download RH Assistant Pro](https://drive.google.com/file/d/1KWDRjRDORucjdaF1S2EdaFHkI1V0TEsL/view?usp=drive_link/RH_Assistant_Pro_Installer.zip)
+[📥 Download RH Assistant Pro](https://github.com/AldBer/rh-assistant-pro/releases/download/v1.0.0/RH_Assistant_Pro_Installer.zip)
 
 ✅ 15 dias grátis | ✅ Suporte completo | ✅ Instalador automático
 
 ### Para Usuários (Windows)
-1. **Baixe a última versão**: [RH_Assistant_Pro.exe](https://github.com/AldBer/rh-assistant-pro/releases/latest)
-2. **Execute o arquivo** `RH_Assistant_Pro.exe`
-3. **Acesse no navegador**: `http://localhost:5000`
+1. **Baixe a última versão**: [RH_Assistant_Pro.exe](https://github.com/AldBer/rh-assistant-pro/releases/download/v1.0.0/RH_Assistant_Pro.exe)
+2. **Execute o arquivo** `src/main.py`
+3. **Acesse no navegador**: `http://localhost:8000`
 4. **Configure suas políticas** na pasta `data/`
 
 ### Para Desenvolvedores
@@ -48,6 +48,6 @@ cd rh-assistant-pro
 pip install -r requirements.txt
 
 # 3. Execute
-python app_profissional.py
+python src/main.py
 
-# 4. Acesse: http://localhost:5000
+# 4. Acesse: http://localhost:8000
