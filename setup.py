@@ -14,7 +14,7 @@ setup(
     description='Sistema inteligente de consulta de políticas com triagem automática',
     long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/AldBer/rh_assistant_pro',
+    url='https://github.com/AldBer/rh-assistant-pro',
     packages=find_packages(),
     package_data={
         '': ['*.json', '*.css', '*.js', '*.ico', '*.png']
